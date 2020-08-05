@@ -1,0 +1,26 @@
+{
+    "name": "oh-my-mess",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "debug": "node --inspect server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Long Chu",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-validator": "^6.6.1",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.1.0",
+        "sequelize": "^6.3.3",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
